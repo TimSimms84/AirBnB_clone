@@ -10,5 +10,6 @@ header {
     vertical-align: middle;
     margin-left: 20px;
     height: 100%;
+    background-position: 20px;
     background-repeat: no-repeat;
 }
