@@ -8,7 +8,7 @@
 	align-items: center;
 }
 
-.filters locations, .filters .amenities {
+.filters .locations, .filters .amenities {
     height: 100%;
     width: 25%;
    
@@ -47,4 +47,23 @@
     color: #484848;
     margin-left: 10px;
     margin-top: 0;
+}
+
+.popover {
+    display: none;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 10px 0px 10px 25px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.filters .locations:hover .popover{
+    display: block;
+}
+
+.filters .amenities:hover .popover {
+    display: block;
 }
